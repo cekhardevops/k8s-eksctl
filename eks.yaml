@@ -4,8 +4,8 @@ kind: ClusterConfig
 metadata:
   name: expense-1
   region: us-east-1
-  
-manageNodeGroups:
+
+managedNodeGroups:
   - name: expense
     instanceType: m5.large
     desiredCapacity: 3
